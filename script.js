@@ -4,6 +4,7 @@ const color2 = document.querySelector(".color2");
 const body = document.getElementById("gradient");
 const button = document.querySelector("button");
 const copyButton = document.querySelector(".copyButton span");
+const checkIcon = document.getElementById("checkIcon");
 
 window.onload = setGradient;
 
@@ -64,4 +65,10 @@ copyButton.addEventListener("click", () => {
   el.select();
   document.execCommand("copy");
   document.body.removeChild(el);
+
+  // Exibe o ícone de check por 2 segundos
+  checkIcon.style.display = "inline";
+  setTimeout(() => {
+    checkIcon.style.display = "none";
+  }, 2000);
 });
