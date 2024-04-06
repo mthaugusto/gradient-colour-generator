@@ -22,8 +22,25 @@ body * {
     height: 100vh;
 }
 
+.inputs-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
 .random {
-    margin-top: 1rem;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-color: #f1f1f1;
+}
+
+span {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(10, 156, 169);
 }
 
 .inputs {
@@ -51,6 +68,12 @@ h3 {
     color: rgba(0, 0, 0, 0.7);
     text-transform: none;
     letter-spacing: 0.01rem;
+}
+
+.copyButton {
+    background-color: #f1f1f1;
+    padding: 4px;
+    border-color: #f1f1f1;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
