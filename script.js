@@ -3,7 +3,7 @@ const color1 = document.querySelector(".color1");
 const color2 = document.querySelector(".color2");
 const body = document.getElementById("gradient");
 const button = document.querySelector("button");
-const copyButton = document.getElementById("copyButton");
+const copyButton = document.querySelector(".copyButton span");
 
 window.onload = setGradient;
 
