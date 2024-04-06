@@ -8,7 +8,7 @@ This project is a simple linear gradient background generator. Users can select 
 
 ## Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/mthaugusto/gradient-colour-generator/blob/main/screenshot.png)
 
 ## Usage
 
