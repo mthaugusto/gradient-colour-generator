@@ -50,13 +50,12 @@ function setRandomGradient() {
   body.style.background =
     "linear-gradient(to right, " + hexColor1 + ", " + hexColor2 + ")";
 
-  // Atualizar o texto do CSS
   css.textContent = body.style.background + ";";
 }
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
-button.addEventListener("click", setRandomGradient); // Use o nome correto da função aqui
+button.addEventListener("click", setRandomGradient);
 
 copyButton.addEventListener("click", () => {
   const el = document.createElement("textarea");
