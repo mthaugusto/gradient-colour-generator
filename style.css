@@ -54,6 +54,9 @@ input {
     padding: 0.1rem;
 }
 
+h2 {
+    margin-top: -25px;
+}
 h1 {
     font:
         600 3rem "Raleway",
@@ -69,17 +72,32 @@ h3 {
     color: rgba(0, 0, 0, 0.7);
     text-transform: none;
     letter-spacing: 0.01rem;
+    margin-top: -30px;
 }
 
 .container-copyButton {
     display: flex;
     gap: 10px;
+    margin-top: -25px;
 }
 
 .copyButton {
     background-color: #f1f1f1;
     padding: 4px;
     border-color: #f1f1f1;
+}
+
+.footer-fixed {
+    font-family: Arial, sans-serif;
+    position: fixed;
+    text-transform: none;
+    letter-spacing: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
