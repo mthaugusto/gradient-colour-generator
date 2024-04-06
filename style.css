@@ -110,4 +110,8 @@ h3 {
     h2 {
         font-size: 1.5rem;
     }
+
+    .footer-fixed {
+        padding: 5px 0;
+    }
 }
