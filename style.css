@@ -8,6 +8,7 @@ body {
     background: linear-gradient(to right, rgb(181, 222, 255), rgb(217, 152, 255));
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 body * {
