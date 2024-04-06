@@ -117,6 +117,9 @@ h3 {
         overflow-x: hidden;
     }
 
+    .container {
+        margin-top: -30px;
+    }
     h1 {
         font:
             500 2rem "Raleway",
